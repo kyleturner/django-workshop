@@ -1,0 +1,40 @@
+[
+   {
+      "pk": 1, 
+      "model": "core.team", 
+      "fields": {
+         "city": "St. Louis", 
+         "slug": "st-louis-cardinals", 
+         "name": "St. Louis Cardinals", 
+         "mascot": "Cardinal"
+      }
+   }, 
+   {
+      "pk": 2, 
+      "model": "core.team", 
+      "fields": {
+         "city": "Atlanta", 
+         "slug": "atlanta-braves", 
+         "name": "Atlanta Braves", 
+         "mascot": "Indian"
+      }
+   }, 
+   {
+      "pk": 1, 
+      "model": "core.player", 
+      "fields": {
+         "first_name": "Chipper", 
+         "last_name": "Jones", 
+         "team": 2
+      }
+   }, 
+   {
+      "pk": 2, 
+      "model": "core.player", 
+      "fields": {
+         "first_name": "Matt", 
+         "last_name": "Holliday", 
+         "team": 1
+      }
+   }
+]
